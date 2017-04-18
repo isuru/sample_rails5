@@ -14,11 +14,12 @@ gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+# gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem 'uglifier', '~> 2.6.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -34,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'campusties', path: './engines/campusties_engine'
+gem 'campusties', path: 'engines/campusties_engine'
 gem 'activeadmin', github: 'activeadmin'
 
 gem 'haml'
@@ -45,6 +46,9 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
+
+# Environment variables
+gem 'dotenv-rails', '~> 2.0'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
