@@ -18,7 +18,7 @@ GIT
       sprockets (< 4.1)
 
 PATH
-  remote: engines/campusties_engine
+  remote: vendor/campusties_engine
   specs:
     campusties (0.1.0)
       activeadmin

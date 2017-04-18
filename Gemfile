@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'campusties', path: 'engines/campusties_engine'
+gem 'campusties', path: 'vendor/campusties_engine'
 gem 'activeadmin', github: 'activeadmin'
 
 gem 'haml'
@@ -45,11 +45,10 @@ gem 'pg'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-
-  # Environment variables
-  gem 'dotenv-rails', '~> 2.0'
 end
 
+# Environment variables
+gem 'dotenv-rails', '~> 2.0'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
