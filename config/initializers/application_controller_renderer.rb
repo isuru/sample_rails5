@@ -4,3 +4,5 @@
 #   http_host: 'example.org',
 #   https: false
 # )
+Campusties::Admin = Admin
+Campusties::OrgAdmin = OrgAdmin
