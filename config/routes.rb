@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   root to: 'home#index'
 
-  mount Campusties::Engine => '/'
+  # mount Campusties::Engine => '/'
 end

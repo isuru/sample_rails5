@@ -17,10 +17,8 @@ GIT
       sass-rails
       sprockets (< 4.1)
 
-GIT
-  remote: https://github.com/venturit/campustiesengine.git
-  revision: 9c1f7309079e3ac5a3c5ef4f59ac57a5e67fbcc6
-  branch: master
+PATH
+  remote: vendor/campusties_engine
   specs:
     campusties (0.1.0)
       activeadmin
