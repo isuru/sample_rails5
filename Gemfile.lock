@@ -17,14 +17,14 @@ GIT
       sass-rails
       sprockets (< 4.1)
 
-GIT
-  remote: https://github.com/isuru/campusties-engine.git
-  revision: e819cc92dfef17b66ba7937f1b4808b0b61c8fee
+PATH
+  remote: vendor/campusties_engine
   specs:
     campusties (0.1.0)
       activeadmin
       coffee-rails (~> 4.2)
       devise
+      dotenv-rails (~> 2.0)
       foreman
       inherited_resources (~> 1.7)
       jquery-rails
