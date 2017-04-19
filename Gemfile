@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'campusties', path: 'vendor/campusties_engine'
+gem 'campusties', github: 'campusties/campusties', branch: 'master'
 gem 'activeadmin', github: 'activeadmin'
 
 gem 'haml'
